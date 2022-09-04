@@ -2,7 +2,7 @@ from flask import Flask
 
 flask_app = Flask(__name__)
 
-#flask_app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+flask_app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 flask_app.secret_key = 'any random string'
 #run_with_ngrok(flask_app)
 
